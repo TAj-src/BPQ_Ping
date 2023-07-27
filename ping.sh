@@ -1,5 +1,24 @@
 #!/bin/bash
-
+##################################################################
+#
+# File         : ping.sh
+# Descriptipon : PING message server script for LinBPQ
+# Author       : G7TAJ@GB7BEX.#38.GBR.EU (Steve)
+#
+# Install in a directory off the BASE_DIR (e.g. /home/pi/linbpq/scripts/)
+# Change variables to match your system
+#
+# You need an export FWD in BPQMail to export P-type msgs to the below directory
+#
+# add in CRONTAB before you call
+# e.g.
+# #Check for PING msgs
+# 0 1 * * * /home/<usr>/linbpq/scrips/ping.sh > /dev/null 2>&1
+#
+# Replace /dev/null if you want to log the output (e.g. /tmp/ping.log)
+#
+#
+##################################################################
 BBS_NAME=GB7BEX
 BBS_HR=.#38.GBR.EU
 BASE_DIR=/home/taj/linbpq

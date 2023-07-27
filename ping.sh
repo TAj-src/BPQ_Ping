@@ -21,7 +21,7 @@
 ##################################################################
 BBS_NAME=GB7BEX
 BBS_HR=.#38.GBR.EU
-BASE_DIR=/home/taj/linbpq
+BASE_DIR=/home/pi/linbpq
 MAIL_FILE=$BASE_DIR/Mail/Import/mail.in
 EXPORT_DIR=$BASE_DIR/Mail/Export/ping
 LOG=ping.out
